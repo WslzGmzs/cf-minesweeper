@@ -1,0 +1,12 @@
+name = "cf-minesweeper"
+main = "src/optimized.js"
+compatibility_date = "2025-06-20"
+
+# 🔒 简化方案：单KV命名空间 + 数据前缀分离
+# 所有数据存储在一个KV中，通过键前缀区分类型
+[[kv_namespaces]]
+binding = "LEADERBOARD"
+id = "8355950522364326af1d6c839b9695b1"
+
+[env.production]
+name = "test4"
